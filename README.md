@@ -1,2 +1,4 @@
 # ads2-midterm
-Simple Postfix++ arithmetical calculator, made using Javascript.
+This program is a Postfix++ arithmetic calculator. It is created using JavaScript and can perform simple mathematical calculations like addition and multiplication, as well as functions such as finding the cosine and logarithms. It also runs functions that can assign key-pair values, perform value lookups, and delete values. The program also accounts for error handling, logging errors, and prompting users for the correct input.
+
+The program uses the data structures arrays, stacks, and hash tables. Arrays are used to store and process user input, such as ensuring that user input is of the correct length for certain functions. Stacks are used to store values used to compute the Postfix expression. We iterate through the input array and push each value to the “bottom” of the stack. When we encounter an operand, we pop the two “top”-most values of the stack for computation. A hash table was used for key-pair value lookups, as they allow for rapid data retrieval.
