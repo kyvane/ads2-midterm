@@ -10,7 +10,9 @@ The program uses the data structures arrays, stacks, and hash tables. Arrays are
 ## How to run
 
 From this folder:
+```
 node index.js
+```
 
 The program prints a menu and waits for a choice:
 
@@ -37,7 +39,7 @@ Enter numbers and operators separated by spaces. Each operator is applied to the
 ```
 20 30 +
 ```
-
+Returns:
 ```
 30 + 20 = 50
 Result:  50
@@ -48,7 +50,7 @@ Decimals are accepted. A non-integer result is printed to two decimal places.
 ```
 4 10 /
 ```
-
+Returns:
 ```
 10 / 4 = 2.50
 Result:  2.50
@@ -59,7 +61,7 @@ Letters stand for variables that were assigned earlier. With `A` set to `9`:
 ```
 A 5 *
 ```
-
+Returns:
 ```
 5 * 9 = 45
 Result:  45
